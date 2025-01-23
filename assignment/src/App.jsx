@@ -1,11 +1,13 @@
+import "tailwindcss";
 import './App.css'
+import Task from "./components/Task";
 
 function App() {
   
 
   return (
     <>
-     <h2 className='text-5xl font-bold underline'> hello</h2>
+       <Task/>
     </>
   )
 }
